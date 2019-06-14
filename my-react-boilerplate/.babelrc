@@ -1,0 +1,58 @@
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"]
+}
+
+// {
+//     "presets": ["react-native"],
+//     "plugins": [
+//       [
+//         "module-resolver",
+//         {
+//           "root": ["./src"],
+//           "alias": {
+//             "src": "./src",
+//             "assets": "./src/assets",
+//             "components": "./src/components",
+//             "api": "./src/api",
+//             "utils": "./src/utils",
+//             "redux-actions": "./src/redux/actions",
+//             "services": "./src/api/services"
+//           }
+//         }
+//       ]
+//     ]
+//   }
+
+//   {
+//     "presets": [
+//       "react-native-dotenv",
+//       [
+//         "env",
+//         {
+//           "targets": {
+//             "node": true
+//           }
+//         }
+//       ]
+//     ],
+//     "plugins": [
+//       "transform-es2015-destructuring",
+//       "transform-es2015-parameters",
+//       "transform-object-rest-spread",
+//       "transform-async-to-generator",
+//       [
+//         "module-resolver",
+//         {
+//           "root": ["./functions/dist"],
+//           "alias": {
+//             "src": "./src",
+//             "assets": "./src/assets",
+//             "components": "./src/components",
+//             "containers": "./src/containers",
+//             "routes": "./src/routes",
+//             "utils": "./src/utils"
+//           }
+//         }
+//       ]
+//     ]
+//   }
