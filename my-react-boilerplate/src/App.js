@@ -1,16 +1,15 @@
-// The default component for create-react-app
 import React from 'react';
-// import Root from './routes/Root';
-// import { Provider } from 'react-redux';
-// import store from './redux/createStore';
+import HeaderContainer from 'containers/Header/HeaderContainer';
+import RootRoutes from 'routes/rootRoutes';
 
 import './App.css';
 
 class App extends React.Component {
   render() {
     return (
-      <div>
-        <p>Hello Cruel World</p>
+      <div className="App">
+        <HeaderContainer />
+        <RootRoutes />
       </div>
     );
   }
