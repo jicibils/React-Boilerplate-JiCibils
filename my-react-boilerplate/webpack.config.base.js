@@ -63,6 +63,15 @@ function webpackConfigGenerator(env) {
         }
       ]
     },
+    devServer: {
+      historyApiFallback: true,
+      port: 3000,
+      open: true
+      // proxy: {
+      //   '/api': 'http://localhost:8080',
+      //   '/graphql': 'http://localhost:8080'
+      // }
+    },
     plugins: [
       new HTMLWebpackPlugin({
         filename: indexOutput,
